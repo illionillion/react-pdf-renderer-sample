@@ -1,11 +1,12 @@
 import { Box } from "@chakra-ui/react"
 import { PDFScreen } from "./components/PDFScreen"
+import { FC } from "react"
 
-function App() {
+const App: FC = () => {
 
   return (
     <Box width="full" height="100svh">
-      <PDFScreen/>
+      <PDFScreen />
     </Box>
   )
 }
